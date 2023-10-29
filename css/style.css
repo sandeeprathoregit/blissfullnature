@@ -1,0 +1,13 @@
+header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background: linear-gradient(to top left, rgba(114, 64, 101, 0.8666666667), rgba(114, 64, 101, 0.8666666667)), url(/images/background.jpg) center center;
+  background-size: cover;
+}
+
+@media (max-width: 980px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+}
